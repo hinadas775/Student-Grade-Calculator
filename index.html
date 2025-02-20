@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student grade card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="result">
+        <h1>Result</h1>
+      <div class="show">
+        
+          <h2>Total: <span id="total"></span></h2><br>
+          <h2>Percentage: <span id="percentage"></span></h2><br>
+          <h2>Grade: <span id="grade"></span></h2>
+          <p id="message"></p> <!-- Display pass/fail message here -->
+        
+        
+    </div>
+    <div class="main-input">
+      <div class="input">
+        <input type="number" name="" id="math" placeholder="Math"><br>
+        <input type="number" name="" id="phy" placeholder="Physics"><br>
+        <input type="number" name="" id="chem" placeholder="Chemistry"><br>
+        <input type="number" name="" id="cs" placeholder="Computer Science"><br>
+        <input type="number" name="" id="ss" placeholder="Social Science"><br>
+
+
+        <button onclick="getResult()">Calculation</button>
+
+      </div>
+      </div>
+      <h2>Created By Hina </h2>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
